@@ -1,4 +1,12 @@
 export const Labels = {
+  1: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
   2: {
     1: {
       top: "22%",
@@ -175,7 +183,111 @@ export const Labels = {
       deg: -2,
     },
   },
+  4: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  5: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  6: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  7: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  8: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  9: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  10: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  11: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  12: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  13: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
   14: {
+    1: {
+      top: "73%",
+      left: "25%",
+      width: "8%",
+      fontSize: "2.5vw",
+    },
+  },
+  15: {
+    1: {
+      top: "73%",
+      left: "25%",
+      width: "8%",
+      fontSize: "2.5vw",
+    },
+  },
+  16: {
+    1: {
+      top: "73%",
+      left: "25%",
+      width: "8%",
+      fontSize: "2.5vw",
+    },
+  },
+  17: {
     1: {
       top: "73%",
       left: "25%",
@@ -199,12 +311,60 @@ export const Labels = {
       fontSize: "2.5vw",
     },
   },
+  20: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  21: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  22: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  23: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
   24: {
     1: {
       top: "73%",
       left: "25%",
       width: "8%",
       fontSize: "2.5vw",
+    },
+  },
+  25: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  26: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
     },
   },
   27: {
@@ -231,6 +391,38 @@ export const Labels = {
       fontSize: "2.5vw",
     },
   },
+  30: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  31: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  32: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  33: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
   34: {
     1: {
       top: "73%",
@@ -239,12 +431,44 @@ export const Labels = {
       fontSize: "2.5vw",
     },
   },
+  35: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  36: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
   37: {
     1: {
       top: "73%",
       left: "25%",
       width: "8%",
       fontSize: "2.5vw",
+    },
+  },
+  38: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  39: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
     },
   },
   40: {
@@ -300,6 +524,14 @@ export const Labels = {
       fontSize: "2.5vw",
     },
   },
+  42: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
   43: {
     1: {
       top: "73%",
@@ -316,6 +548,62 @@ export const Labels = {
       fontSize: "2.5vw",
     },
   },
+  45: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  46: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  47: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  48: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  49: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  50: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
+  51: {
+    1: {
+      top: "22%",
+      left: "47%",
+      width: "20%",
+      fontSize: "1.4vw",
+    },
+  },
   кругл: {
     1: {
       top: "73%",
@@ -325,6 +613,22 @@ export const Labels = {
     },
   },
   сереб: {
+    1: {
+      top: "73%",
+      left: "25%",
+      width: "8%",
+      fontSize: "2.5vw",
+    },
+  },
+  ГЭН: {
+    1: {
+      top: "73%",
+      left: "25%",
+      width: "8%",
+      fontSize: "2.5vw",
+    },
+  },
+  шгво: {
     1: {
       top: "73%",
       left: "25%",
