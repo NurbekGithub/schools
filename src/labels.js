@@ -483,7 +483,7 @@ export const Labels = {
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
       deg: -1,
-      paddingLeft: "18%"
+      paddingLeft: "18%",
     },
     2: {
       top: "27%",
@@ -492,7 +492,7 @@ export const Labels = {
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
       deg: -1,
-      paddingRight: "16%"
+      paddingRight: "16%",
     },
     3: {
       top: "56.5%",
@@ -501,7 +501,7 @@ export const Labels = {
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
       deg: -1,
-      paddingLeft: "37%"
+      paddingLeft: "37%",
     },
     4: {
       top: "46.5%",
@@ -510,7 +510,7 @@ export const Labels = {
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
       deg: 90,
-      paddingLeft: "23%"
+      paddingLeft: "23%",
     },
     5: {
       top: "46.5%",
@@ -519,7 +519,7 @@ export const Labels = {
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
       deg: 85.7,
-      paddingLeft: "23%"
+      paddingLeft: "23%",
     },
     7: {
       top: "0%",
@@ -528,7 +528,7 @@ export const Labels = {
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
       deg: 0,
-      paddingRight: "3%"
+      paddingRight: "3%",
     },
     9: {
       top: "22.5%",
@@ -537,7 +537,7 @@ export const Labels = {
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
       deg: 79.3,
-      paddingRight: "5%"
+      paddingRight: "5%",
     },
     10: {
       top: "20%",
@@ -545,7 +545,7 @@ export const Labels = {
       width: "38%",
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
-      paddingRight: "14%"
+      paddingRight: "14%",
     },
   },
   8: {
@@ -565,7 +565,7 @@ export const Labels = {
       background: `${defaultBGColor}`,
       padding: "4% 6% 4% 6%",
       borderRadius: "50%",
-      deg: 0
+      deg: 0,
     },
     2: {
       top: "31%",
@@ -573,7 +573,7 @@ export const Labels = {
       width: "24%",
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
-      deg: 2
+      deg: 2,
     },
     3: {
       top: "55.5%",
@@ -583,7 +583,7 @@ export const Labels = {
       background: `${defaultBGColor}`,
       padding: "3% 3% 3% 3%",
       borderRadius: "50%",
-      deg: 0
+      deg: 0,
     },
     4: {
       top: "84.5%",
@@ -593,7 +593,7 @@ export const Labels = {
       background: `${defaultBGColor}`,
       padding: "2% 1% 2% 1%",
       borderRadius: "50%",
-      deg: 0
+      deg: 0,
     },
     5: {
       top: "48%",
@@ -601,7 +601,7 @@ export const Labels = {
       width: "38%",
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
-      deg: -80
+      deg: -80,
     },
   },
   10: {
@@ -975,10 +975,43 @@ export const Labels = {
   },
   47: {
     1: {
-      top: "22%",
-      left: "47%",
-      width: "20%",
+      top: "40%",
+      left: "30%",
+      width: "50%",
       fontSize: "1.4vw",
+      deg: -49.5,
+      borderBottom: `.3vw solid ${defaultColor}`,
+    },
+    2: {
+      top: "42%",
+      left: "60%",
+      width: "32%",
+      fontSize: "1.4vw",
+      deg: 36,
+      borderBottom: `.3vw solid ${defaultColor}`,
+    },
+    3: {
+      top: "42%",
+      left: "3%",
+      width: "60%",
+      fontSize: "1.4vw",
+      deg: -75,
+    },
+    4: {
+      top: "16%",
+      left: "44%",
+      width: "10%",
+      fontSize: "1.4vw",
+      deg: -86,
+      borderBottom: `.3vw solid ${defaultColor}`,
+    },
+    5: {
+      top: "13%",
+      left: "53%",
+      width: "12%",
+      fontSize: "1.4vw",
+      deg: -80,
+      borderBottom: `.3vw solid ${defaultColor}`,
     },
   },
   48: {
@@ -991,10 +1024,13 @@ export const Labels = {
   },
   49: {
     1: {
-      top: "22%",
-      left: "47%",
-      width: "20%",
+      padding: "4vw",
+      top: "56%",
+      left: "50%",
+      width: "15%",
       fontSize: "1.4vw",
+      borderRadius: "50%",
+      background: `${defaultBGColor}`,
     },
   },
   50: {
