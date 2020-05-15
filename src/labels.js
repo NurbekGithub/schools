@@ -1,3 +1,4 @@
+const defaultBGColor = "rgba(235,135,69, .3)"
 const defaultColor = "#eb7d45";
 export const Labels = {
   1: {
@@ -321,18 +322,157 @@ export const Labels = {
   },
   5: {
     1: {
-      top: "22%",
-      left: "47%",
+      top: "31.5%",
+      left: "29%",
+      width: "13%",
+      fontSize: "1.4vw",
+      background: `${defaultBGColor}`,
+      padding: "9% 4% 9% 4%",
+      borderRadius: "5%",
+      deg: 9
+    },
+    2: {
+      top: "50%",
+      left: "40.3%",
       width: "20%",
       fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: -91,
     },
+    3: {
+      top: "19.5%",
+      left: "40.3%",
+      width: "20%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: -1.5
+    },
+    4: {
+      top: "8%",
+      left: "64%",
+      width: "15%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: -1.5
+    },
+    5: {
+      top: "19.5%",
+      left: "70.5%",
+      width: "20%",
+      fontSize: "1.4vw",
+      paddingLeft: "4%",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: 66.5
+    },
+    7: {
+      top: "8%",
+      left: "32%",
+      width: "8%",
+      fontSize: "1.4vw",
+      padding: "1%",
+      background: `${defaultBGColor}`,
+      borderRadius: "50%"
+    },
+    9: {
+      top: "11%",
+      left: "22%",
+      width: "7%",
+      fontSize: "1.4vw",
+      background: `${defaultBGColor}`,
+      padding: "1%",
+      borderRadius: "50%"
+    },
+    11: {
+      top: "38%",
+      left: "51%",
+      width: "40%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: -1
+    }
   },
   6: {
     1: {
-      top: "22%",
-      left: "47%",
-      width: "20%",
+      top: "48%",
+      left: "1%",
+      width: "95%",
       fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: -2.5
+    },
+    2: {
+      top: "35.8%",
+      left: "20%",
+      width: "60%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: -2.4
+    },
+    3: {
+      top: "22%",
+      left: "38%",
+      width: "50%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      paddingRight: "25%",
+      deg: -2.4
+    },
+    4: {
+      top: "11%",
+      left: "1%",
+      width: "83%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: -1.6
+    },
+    5: {
+      top: "62%",
+      left: "1%",
+      width: "80%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: -2.5
+    },
+    6: {
+      top: "28.6%",
+      left: "38%",
+      width: "37%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      paddingRight: "15%",
+      deg: -2.4
+    },
+    7: {
+      top: "44.6%",
+      left: "46.5%",
+      width: "40%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: 76
+    },
+    8: {
+      top: "86%",
+      left: "35.5%",
+      width: "40%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: -3.5
+    },
+    9: {
+      top: "44.6%",
+      left: "41%",
+      width: "40%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: 78.5
+    },
+    10: {
+      top: "68.5%",
+      left: "35.5%",
+      width: "40%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: -3
     },
   },
   7: {
@@ -393,10 +533,46 @@ export const Labels = {
   },
   14: {
     1: {
-      top: "73%",
-      left: "25%",
-      width: "8%",
-      fontSize: "2.5vw",
+      top: "43.5%",
+      left: "30%",
+      width: "24%",
+      fontSize: "1.5vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: 17
+    },
+    2: {
+      top: "24.5%",
+      left: "36%",
+      width: "12%",
+      fontSize: "1.5vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: -71,
+      paddingLeft: "3%"
+    },
+    4: {
+      top: "33.5%",
+      left: "6%",
+      width: "24%",
+      fontSize: "1.5vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: 6
+    },
+    6: {
+      top: "18.5%",
+      left: "0%",
+      width: "12%",
+      fontSize: "1.5vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: -42,
+      paddingLeft: "3%"
+    },
+    7: {
+      top: "15.5%",
+      left: "15%",
+      width: "15%",
+      fontSize: "1.5vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: 12
     },
   },
   15: {
