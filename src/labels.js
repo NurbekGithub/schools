@@ -959,10 +959,12 @@ export const Labels = {
   },
   45: {
     1: {
-      top: "22%",
-      left: "47%",
-      width: "20%",
+      top: "47%",
+      left: "36.4%",
+      width: "44%",
       fontSize: "1.4vw",
+      deg: -91,
+      borderBottom: `.3vw solid ${defaultColor}`,
     },
   },
   46: {
