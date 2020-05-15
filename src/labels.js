@@ -1,4 +1,4 @@
-const defaultBGColor = "rgba(235,135,69, .3)"
+const defaultBGColor = "rgba(235,135,69, .3)";
 const defaultColor = "#eb7d45";
 export const Labels = {
   1: {
@@ -329,7 +329,7 @@ export const Labels = {
       background: `${defaultBGColor}`,
       padding: "9% 4% 9% 4%",
       borderRadius: "5%",
-      deg: 9
+      deg: 9,
     },
     2: {
       top: "50%",
@@ -345,7 +345,7 @@ export const Labels = {
       width: "20%",
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
-      deg: -1.5
+      deg: -1.5,
     },
     4: {
       top: "8%",
@@ -353,7 +353,7 @@ export const Labels = {
       width: "15%",
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
-      deg: -1.5
+      deg: -1.5,
     },
     5: {
       top: "19.5%",
@@ -362,7 +362,7 @@ export const Labels = {
       fontSize: "1.4vw",
       paddingLeft: "4%",
       borderBottom: `.3vw solid ${defaultColor}`,
-      deg: 66.5
+      deg: 66.5,
     },
     7: {
       top: "8%",
@@ -371,7 +371,7 @@ export const Labels = {
       fontSize: "1.4vw",
       padding: "1%",
       background: `${defaultBGColor}`,
-      borderRadius: "50%"
+      borderRadius: "50%",
     },
     9: {
       top: "11%",
@@ -380,7 +380,7 @@ export const Labels = {
       fontSize: "1.4vw",
       background: `${defaultBGColor}`,
       padding: "1%",
-      borderRadius: "50%"
+      borderRadius: "50%",
     },
     11: {
       top: "38%",
@@ -388,8 +388,8 @@ export const Labels = {
       width: "40%",
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
-      deg: -1
-    }
+      deg: -1,
+    },
   },
   6: {
     1: {
@@ -398,7 +398,7 @@ export const Labels = {
       width: "95%",
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
-      deg: -2.5
+      deg: -2.5,
     },
     2: {
       top: "35.8%",
@@ -406,7 +406,7 @@ export const Labels = {
       width: "60%",
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
-      deg: -2.4
+      deg: -2.4,
     },
     3: {
       top: "22%",
@@ -415,7 +415,7 @@ export const Labels = {
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
       paddingRight: "25%",
-      deg: -2.4
+      deg: -2.4,
     },
     4: {
       top: "11%",
@@ -423,7 +423,7 @@ export const Labels = {
       width: "83%",
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
-      deg: -1.6
+      deg: -1.6,
     },
     5: {
       top: "62%",
@@ -431,7 +431,7 @@ export const Labels = {
       width: "80%",
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
-      deg: -2.5
+      deg: -2.5,
     },
     6: {
       top: "28.6%",
@@ -440,7 +440,7 @@ export const Labels = {
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
       paddingRight: "15%",
-      deg: -2.4
+      deg: -2.4,
     },
     7: {
       top: "44.6%",
@@ -448,7 +448,7 @@ export const Labels = {
       width: "40%",
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
-      deg: 76
+      deg: 76,
     },
     8: {
       top: "86%",
@@ -456,7 +456,7 @@ export const Labels = {
       width: "40%",
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
-      deg: -3.5
+      deg: -3.5,
     },
     9: {
       top: "44.6%",
@@ -464,7 +464,7 @@ export const Labels = {
       width: "40%",
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
-      deg: 78.5
+      deg: 78.5,
     },
     10: {
       top: "68.5%",
@@ -472,7 +472,7 @@ export const Labels = {
       width: "40%",
       fontSize: "1.4vw",
       borderBottom: `.3vw solid ${defaultColor}`,
-      deg: -3
+      deg: -3,
     },
   },
   7: {
@@ -538,7 +538,7 @@ export const Labels = {
       width: "24%",
       fontSize: "1.5vw",
       borderBottom: `.3vw solid ${defaultColor}`,
-      deg: 17
+      deg: 17,
     },
     2: {
       top: "24.5%",
@@ -547,7 +547,7 @@ export const Labels = {
       fontSize: "1.5vw",
       borderBottom: `.3vw solid ${defaultColor}`,
       deg: -71,
-      paddingLeft: "3%"
+      paddingLeft: "3%",
     },
     4: {
       top: "33.5%",
@@ -555,7 +555,7 @@ export const Labels = {
       width: "24%",
       fontSize: "1.5vw",
       borderBottom: `.3vw solid ${defaultColor}`,
-      deg: 6
+      deg: 6,
     },
     6: {
       top: "18.5%",
@@ -564,7 +564,7 @@ export const Labels = {
       fontSize: "1.5vw",
       borderBottom: `.3vw solid ${defaultColor}`,
       deg: -42,
-      paddingLeft: "3%"
+      paddingLeft: "3%",
     },
     7: {
       top: "15.5%",
@@ -572,7 +572,7 @@ export const Labels = {
       width: "15%",
       fontSize: "1.5vw",
       borderBottom: `.3vw solid ${defaultColor}`,
-      deg: 12
+      deg: 12,
     },
   },
   15: {
@@ -910,10 +910,46 @@ export const Labels = {
   },
   кругл: {
     1: {
-      top: "73%",
-      left: "25%",
-      width: "8%",
-      fontSize: "2.5vw",
+      paddingRight: "10%",
+      top: "6%",
+      left: "15%",
+      width: "50%",
+      fontSize: "1.4vw",
+      deg: 3,
+      borderBottom: `.3vw solid ${defaultColor}`,
+    },
+    2: {
+      paddingRight: "27%",
+      top: "31%",
+      left: "18%",
+      width: "60%",
+      fontSize: "1.4vw",
+      deg: -4,
+      borderBottom: `.3vw solid ${defaultColor}`,
+    },
+    3: {
+      top: "34%",
+      left: "3%",
+      width: "23%",
+      fontSize: "1.4vw",
+      deg: -110,
+      borderBottom: `.3vw solid ${defaultColor}`,
+    },
+    4: {
+      top: "25%",
+      left: "13%",
+      width: "20%",
+      fontSize: "1.4vw",
+      deg: -90,
+      borderBottom: `.3vw solid ${defaultColor}`,
+    },
+    6: {
+      top: "14%",
+      left: "39%",
+      width: "16%",
+      fontSize: "1.4vw",
+      deg: -80,
+      borderBottom: `.3vw solid ${defaultColor}`,
     },
   },
   сереб: {
