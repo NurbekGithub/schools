@@ -988,10 +988,12 @@ export const Labels = {
   },
   ГЭН: {
     1: {
-      top: "73%",
+      top: "0%",
       left: "25%",
-      width: "8%",
-      fontSize: "2.5vw",
+      width: "73%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: 180,
     },
   },
   шгво: {
