@@ -477,10 +477,75 @@ export const Labels = {
   },
   7: {
     1: {
-      top: "22%",
+      top: "42%",
+      left: "22%",
+      width: "68%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: -1,
+      paddingLeft: "18%"
+    },
+    2: {
+      top: "27%",
       left: "47%",
+      width: "50%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: -1,
+      paddingRight: "16%"
+    },
+    3: {
+      top: "56.5%",
+      left: "1%",
+      width: "95%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: -1,
+      paddingLeft: "37%"
+    },
+    4: {
+      top: "46.5%",
+      left: "23.8%",
+      width: "41%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: 90,
+      paddingLeft: "23%"
+    },
+    5: {
+      top: "46.5%",
+      left: "35.5%",
+      width: "41%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: 85.7,
+      paddingLeft: "23%"
+    },
+    7: {
+      top: "0%",
+      left: "44.5%",
+      width: "41%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: 0,
+      paddingRight: "3%"
+    },
+    9: {
+      top: "22.5%",
+      left: "60.5%",
       width: "20%",
       fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: 79.3,
+      paddingRight: "5%"
+    },
+    10: {
+      top: "20%",
+      left: "50%",
+      width: "38%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      paddingRight: "14%"
     },
   },
   8: {
@@ -493,10 +558,50 @@ export const Labels = {
   },
   9: {
     1: {
-      top: "22%",
-      left: "47%",
-      width: "20%",
+      top: "55.5%",
+      left: "44%",
+      width: "28%",
       fontSize: "1.4vw",
+      background: `${defaultBGColor}`,
+      padding: "4% 6% 4% 6%",
+      borderRadius: "50%",
+      deg: 0
+    },
+    2: {
+      top: "31%",
+      left: "45%",
+      width: "24%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: 2
+    },
+    3: {
+      top: "55.5%",
+      left: "25%",
+      width: "15%",
+      fontSize: "1.4vw",
+      background: `${defaultBGColor}`,
+      padding: "3% 3% 3% 3%",
+      borderRadius: "50%",
+      deg: 0
+    },
+    4: {
+      top: "84.5%",
+      left: "44%",
+      width: "28%",
+      fontSize: "1.4vw",
+      background: `${defaultBGColor}`,
+      padding: "2% 1% 2% 1%",
+      borderRadius: "50%",
+      deg: 0
+    },
+    5: {
+      top: "48%",
+      left: "23%",
+      width: "38%",
+      fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+      deg: -80
     },
   },
   10: {
