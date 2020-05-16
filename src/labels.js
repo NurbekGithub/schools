@@ -865,11 +865,28 @@ export const Labels = {
     },
   },
   38: {
-    1: {
-      top: "22%",
-      left: "47%",
+    2: {
+      bottom: "0%",
+      left: "0%",
       width: "20%",
       fontSize: "1.4vw",
+      borderBottom: `.3vw solid ${defaultColor}`,
+    },
+    3: {
+      top: "65%",
+      left: "37%",
+      width: "30%",
+      fontSize: "1.4vw",
+      deg: -93,
+      borderBottom: `.3vw solid ${defaultColor}`,
+    },
+    4: {
+      top: "60%",
+      left: "71.3%",
+      width: "30%",
+      fontSize: "1.4vw",
+      deg: -105.8,
+      borderBottom: `.3vw solid ${defaultColor}`,
     },
   },
   39: {
