@@ -779,11 +779,23 @@ export const Labels = {
     },
   },
   27: {
-    1: {
-      top: "73%",
-      left: "25%",
-      width: "8%",
+    2: {
+      paddingLeft: "20%",
+      top: "37%",
+      left: "22%",
+      width: "78%",
       fontSize: "1.4vw",
+      deg: 1.4,
+      borderBottom: `.3vw solid ${defaultColor}`,
+    },
+    3: {
+      paddingLeft: "17%",
+      top: "47.7%",
+      left: "34%",
+      width: "45%",
+      fontSize: "1.4vw",
+      deg: -94,
+      borderBottom: `.3vw solid ${defaultColor}`,
     },
   },
   28: {
