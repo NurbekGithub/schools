@@ -606,10 +606,12 @@ export const Labels = {
   },
   10: {
     1: {
-      top: "22%",
-      left: "47%",
-      width: "20%",
+      top: "55%",
+      left: "22%",
+      width: "40%",
       fontSize: "1.4vw",
+      deg: -120,
+      borderBottom: `.3vw solid ${defaultColor}`,
     },
   },
   11: {
@@ -801,11 +803,32 @@ export const Labels = {
     },
   },
   30: {
-    1: {
-      top: "22%",
-      left: "47%",
+    2: {
+      padding: "2vw 0",
+      top: "1%",
+      left: "1%",
       width: "20%",
       fontSize: "1.4vw",
+      borderRadius: "50%",
+      background: `${defaultBGColor}`,
+    },
+    3: {
+      padding: "1vw 0",
+      top: "0%",
+      left: "30%",
+      width: "10%",
+      fontSize: "1.4vw",
+      borderRadius: "50%",
+      background: `${defaultBGColor}`,
+    },
+    4: {
+      padding: "1vw 0",
+      top: "0%",
+      left: "50%",
+      width: "10%",
+      fontSize: "1.4vw",
+      borderRadius: "50%",
+      background: `${defaultBGColor}`,
     },
   },
   31: {
