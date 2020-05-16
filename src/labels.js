@@ -842,10 +842,20 @@ export const Labels = {
   },
   35: {
     1: {
-      top: "22%",
-      left: "47%",
-      width: "20%",
+      top: "23.1%",
+      left: "0%",
+      width: "23%",
       fontSize: "1.4vw",
+      deg: -15,
+      borderBottom: `.3vw solid ${defaultColor}`,
+    },
+    2: {
+      top: "9.5%",
+      left: "0%",
+      width: "22%",
+      fontSize: "1.4vw",
+      deg: -16,
+      borderBottom: `.3vw solid ${defaultColor}`,
     },
   },
   36: {
