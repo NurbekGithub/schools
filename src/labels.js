@@ -249,11 +249,12 @@ export const Labels = {
       deg: -2,
     },
     14: {
-      top: "5%",
-      left: "5%",
-      width: "25%",
+      top: "84%",
+      left: "44.8%",
+      width: "11.2%",
       fontSize: "1.4vw",
-      deg: -2,
+      deg: -91,
+      borderBottom: `0.3vw solid ${defaultColor}`,
     },
   },
   4: {
