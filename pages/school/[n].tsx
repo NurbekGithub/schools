@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Head from "next/head";
-import Link from 'next/link';
+import Router from 'next/router'
 import fs from "fs";
 import xlsx from "xlsx";
 import Label from "../../src/components/Label";
@@ -16,13 +16,9 @@ export default function School({ n, data, normalized }) {
     </Head>
     <AppBar position="static">
       <Toolbar>
-        <Link href='/'>
-          <a style={{ color: '#fff' }}>
-            <IconButton color='inherit'>
-              <ArrowBack />
-            </IconButton>
-          </a>
-        </Link>
+        <IconButton color='inherit' onClick={() => Router.back()}>
+          <ArrowBack />
+        </IconButton>
         <Grid container justify='space-between' alignItems='center'>
           <Typography variant="h6" >
             {n}
@@ -50,7 +46,7 @@ export default function School({ n, data, normalized }) {
       </Dialog>
     </AppBar>
     <div style={{ position: "relative" }}>
-      <img src={`/images/${n}.png`} width="100%" />
+      <img src={`../../images/${n}.png`} width="100%" />
       {Object.entries(Labels[n]).map(([key, styles]: any) => {
         const { str, qnt } = normalized[key];
         return (

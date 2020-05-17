@@ -4,6 +4,8 @@ import Link from "next/link";
 import xlsx from 'xlsx';
 import fs from 'fs';
 
+const isDev = process.env.NODE_ENV === 'development';
+
 export default function Home({ data }) {
   return (
     <>
@@ -35,11 +37,16 @@ export default function Home({ data }) {
               <TableCell>{row.strNumb}</TableCell>
               <TableCell>{row.personNumb}</TableCell>
               <TableCell>
-                <Link href={`school/[n]`} as={`school/${row.n}`}>
-                  <a style={{ textDecoration: 'none' }}>
+                {isDev
+                  ? <Link href={`school/[n]`} as={`school/${row.n}`}>
+                    <a style={{ textDecoration: 'none' }}>
+                      <Button variant='contained' color='primary'>Толығырақ</Button>
+                    </a>
+                  </Link>
+                  : <a style={{ textDecoration: 'none' }} href={`school/${row.n}`}>
                     <Button variant='contained' color='primary'>Толығырақ</Button>
                   </a>
-                </Link>
+                }
               </TableCell>
             </TableRow>)}
           </TableBody>
