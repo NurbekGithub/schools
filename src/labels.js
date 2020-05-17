@@ -614,14 +614,7 @@ export const Labels = {
       borderBottom: `.3vw solid ${defaultColor}`,
     },
   },
-  11: {
-    1: {
-      top: "22%",
-      left: "47%",
-      width: "20%",
-      fontSize: "1.4vw",
-    },
-  },
+  11: {},
   12: {
     1: {
       top: "22%",
@@ -632,10 +625,46 @@ export const Labels = {
   },
   13: {
     1: {
-      top: "22%",
-      left: "47%",
+      top: "70.2%",
+      left: "10.5%",
+      width: "26%",
+      fontSize: "1.4vw",
+      deg: -62.7,
+      borderBottom: `.3vw solid ${defaultColor}`,
+    },
+    2: {
+      bottom: "1%",
+      left: "18.1%",
       width: "20%",
       fontSize: "1.4vw",
+      deg: 0,
+      borderBottom: `.3vw solid ${defaultColor}`,
+    },
+    3: {
+      top: "2.5%",
+      left: "54.1%",
+      width: "24%",
+      fontSize: "1.4vw",
+      deg: -2,
+      borderBottom: `.3vw solid ${defaultColor}`,
+    },
+    4: {
+      paddingRight: "10%",
+      top: "39.5%",
+      left: "37.1%",
+      width: "20%",
+      fontSize: "1.4vw",
+      deg: -90,
+      borderBottom: `.3vw solid ${defaultColor}`,
+    },
+    5: {
+      // paddingRight: "10%",
+      top: "40.5%",
+      left: "42.1%",
+      width: "29%",
+      fontSize: "1.4vw",
+      deg: -94.6,
+      borderBottom: `.3vw solid ${defaultColor}`,
     },
   },
   14: {
@@ -682,14 +711,7 @@ export const Labels = {
       deg: 12,
     },
   },
-  15: {
-    1: {
-      top: "73%",
-      left: "25%",
-      width: "8%",
-      fontSize: "1.4vw",
-    },
-  },
+  15: {},
   16: {
     1: {
       paddingLeft: "2%",
