@@ -35,7 +35,7 @@ export default function Home({ data }) {
               <TableCell>{row.strNumb}</TableCell>
               <TableCell>{row.personNumb}</TableCell>
               <TableCell>
-                <Link href={`school/${row.n}`}>
+                <Link href={`school/[n]`} as={`school/${row.n}`}>
                   <a style={{ textDecoration: 'none' }}>
                     <Button variant='contained' color='primary'>Толығырақ</Button>
                   </a>
