@@ -108,9 +108,9 @@ export async function getStaticProps(context) {
   const personNumb = data.reduce<number>((acc, curr: any) => acc + Number(curr.qnt), 0);
 
   const meta = {
-    name: normalizedSchools[n]['Атауы'],
-    buildAt: normalizedSchools[n]['Салынған  жылы'],
-    estimated: normalizedSchools[n]['Жобалык куаты'],
+    name: normalizedSchools[n]['Атауы'] || null,
+    buildAt: normalizedSchools[n]['Салынған  жылы'] || null,
+    estimated: normalizedSchools[n]['Жобалык куаты'] || null,
     personNumb,
     miniCenter: normalizedSchools[n]['шағын орталық'] || null
   }
