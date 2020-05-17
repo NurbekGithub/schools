@@ -4,15 +4,17 @@ import Router from 'next/router'
 import fs from "fs";
 import xlsx from "xlsx";
 import Label from "../../src/components/Label";
-import { Labels } from "../../src/labels";
-import { Typography, AppBar, Toolbar, IconButton, Button, Grid, Dialog, DialogContent, Table, TableCell, TableHead, TableBody, TableRow } from "@material-ui/core";
+import { Labels, Circles } from "../../src/labels";
+import { Typography, AppBar, Toolbar, IconButton, Button, Grid, Dialog, DialogContent, Table, TableCell, TableHead, TableBody, TableRow, DialogTitle } from "@material-ui/core";
 import { ArrowBack } from '@material-ui/icons';
+import Circle from '../../src/components/Circle';
 
-export default function School({ n, data, normalized }) {
+export default function School({ n, data, normalized, meta }) {
   const [open, setOpen] = useState(false);
+  const [infoOpen, setInfoOpen] = useState(false);
   return <>
     <Head>
-      <title>Мектеп №{n}</title>
+      <title>{meta.name}</title>
     </Head>
     <AppBar position="static">
       <Toolbar>
@@ -21,7 +23,7 @@ export default function School({ n, data, normalized }) {
         </IconButton>
         <Grid container justify='space-between' alignItems='center'>
           <Typography variant="h6" >
-            {n}
+            {meta.name}
           </Typography>
           <Button color="inherit" onClick={() => setOpen(true)}>Барлығы</Button>
         </Grid>
@@ -44,6 +46,31 @@ export default function School({ n, data, normalized }) {
           </Table>
         </DialogContent>
       </Dialog>
+      <Dialog open={infoOpen} onClose={() => setInfoOpen(false)}>
+        <DialogTitle>{meta.name}</DialogTitle>
+        <DialogContent>
+          <Table>
+            <TableBody>
+              <TableRow>
+                <TableCell>Салынған  жылы</TableCell>
+                <TableCell>{meta.buildAt}</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Жобалық қуаты</TableCell>
+                <TableCell>{meta.estimated}</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Оқушы  саны</TableCell>
+                <TableCell>{meta.personNumb}</TableCell>
+              </TableRow>
+              {meta.miniCenter && <TableRow>
+                <TableCell>шағын орталық</TableCell>
+                <TableCell>{meta.miniCenter}</TableCell>
+              </TableRow>}
+            </TableBody>
+          </Table>
+        </DialogContent>
+      </Dialog>
     </AppBar>
     <div style={{ position: "relative" }}>
       <img src={`../../images/${n}.png`} width="100%" />
@@ -57,20 +84,38 @@ export default function School({ n, data, normalized }) {
           </Label>
         );
       })}
+      <Circle styles={Circles[n]} handleClick={() => setInfoOpen(true)} />
     </div>
   </>
 }
 
 export async function getStaticProps(context) {
-  const xlsxData = xlsx.readFile(`data/${context.params.n}.xlsx`);
+  const n = context.params.n;
+  const schoolsFile = xlsx.readFile('мектептер.xlsx')
+  const schools = xlsx.utils.sheet_to_json(schoolsFile.Sheets['Лист1']);
+  const normalizedSchools = schools.reduce((acc, curr: any) => {
+    acc[curr.code] = curr;
+    return acc;
+  }, {})
+
+  const xlsxData = xlsx.readFile(`data/${n}.xlsx`);
   const sh = xlsxData.Sheets["Лист1"];
   const data = xlsx.utils.sheet_to_json(sh);
   const normalized = data.reduce((acc, curr: any) => {
     acc[curr.id] = curr;
     return acc;
   }, {});
+  const personNumb = data.reduce<number>((acc, curr: any) => acc + Number(curr.qnt), 0);
+
+  const meta = {
+    name: normalizedSchools[n]['Атауы'],
+    buildAt: normalizedSchools[n]['Салынған  жылы'],
+    estimated: normalizedSchools[n]['Жобалык куаты'],
+    personNumb,
+    miniCenter: normalizedSchools[n]['шағын орталық'] || null
+  }
   return {
-    props: { data, normalized, n: context.params.n },
+    props: { data, normalized, n: n, meta },
   };
 }
 

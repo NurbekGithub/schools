@@ -33,7 +33,7 @@ export default function Home({ data }) {
           </TableHead>
           <TableBody>
             {data.map(row => <TableRow key={row.n}>
-              <TableCell>{row.n}</TableCell>
+              <TableCell>{row.name}</TableCell>
               <TableCell>{row.strNumb}</TableCell>
               <TableCell>{row.personNumb}</TableCell>
               <TableCell>
@@ -57,6 +57,13 @@ export default function Home({ data }) {
 }
 
 export async function getStaticProps() {
+  const schoolsFile = xlsx.readFile('мектептер.xlsx')
+  const schools = xlsx.utils.sheet_to_json(schoolsFile.Sheets['Лист1']);
+  const normalizedSchools = schools.reduce((acc, curr: any) => {
+    acc[curr.code] = curr;
+    return acc;
+  }, {})
+
   const folder = fs.readdirSync("data");
   const data = folder.sort((a: string, b: string) => {
     const an = +a.split(".")[0] || 999;
@@ -70,7 +77,7 @@ export async function getStaticProps() {
     const strNumb = sheetData.length;
     const personNumb = sheetData.reduce<number>((acc, curr: any) => acc + Number(curr.qnt), 0);
 
-    return { n, strNumb, personNumb }
+    return { n, name: normalizedSchools[n]['Атауы'], strNumb, personNumb }
   });
   return {
     props: { data },
